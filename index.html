@@ -33,6 +33,7 @@ body{display:flex;align-items:center;justify-content:center;background:#06080c;f
 .cuewrap{flex:1;display:flex;align-items:center;justify-content:center;padding:0 22px}
 .stage{flex:1.7;position:relative;display:flex;align-items:center;justify-content:center;overflow:visible}
 .gbox{width:min(72vw,270px,34dvh);height:min(72vw,270px,34dvh);position:relative;display:flex;align-items:center;justify-content:center;transform:translateY(calc(-10% - 10.4dvh + 50.6px))}
+@media (max-height:720px){.gbox{transform:translateY(calc(-10% - 10.4dvh))}}
 .gcount{position:absolute;font-size:50px;font-weight:600;color:var(--ink)}
 .sqedge{stroke:var(--boxstroke)}
 .lbl{fill:var(--lbl);font-size:11px;font-weight:600;letter-spacing:.06em}
